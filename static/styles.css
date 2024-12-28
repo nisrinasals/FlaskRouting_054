@@ -1,0 +1,88 @@
+/*INDEX
+/* Reset default padding dan margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style container */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Style judul */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style input */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Style tombol */
+button {
+    display: inline-block;
+    background-color: #5f76e8;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #4e5bd1;
+}
+
+
+
+/* /SUBMIT
+/* Styling untuk teks hasil submit */
+p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Style untuk link tombol */
+a.btn {
+    display: inline-block;
+    background-color: #5f76e8;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #4e5bd1;
+}
